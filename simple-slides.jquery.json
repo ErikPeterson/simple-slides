@@ -1,0 +1,29 @@
+{
+	"name": "simple-slides",
+	"title": "Simple Slides",
+	"description": "A super simple, lightweight plugin for generating slide shows from list elements.",
+	"keywords": [
+		"jquery",
+		"slideshow",
+		"plugins"
+	],
+	"version": "0.0.0",
+	"author": {
+		"name": "Erik Sälgström Peterson",
+		"email": "eriksalgstrom@gmail.com",
+		"url": "https://github.com/ErikPeterson"
+	},
+	"licenses": [
+		{
+			"type": "GPL",
+			"url": "http://choosealicense.com/licenses/gpl-v2/"
+		}
+	],
+	"bugs": "https://github.com/ErikPeterson/simple-slides/issues",
+	"homepage": "https://github.com/ErikPeterson/simple-slides/",
+	"docs": "https://github.com/ErikPeterson/simple-slides#readme",
+	"download": "https://github.com/ErikPeterson/simple-slides/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}

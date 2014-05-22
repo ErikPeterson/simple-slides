@@ -1,0 +1,88 @@
+ul.simple-slides {
+  list-style: none;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0 0 0 0;
+  border-bottom: 1px solid #999999;
+  overflow-x: hidden;
+  overflow-y: hidden; }
+  ul.simple-slides li.slide {
+    display: block;
+    position: relative;
+    margin: 1em 0;
+    width: 100%;
+    height: auto; }
+    ul.simple-slides li.slide img {
+      display: block;
+      position: relative;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto .5em auto; }
+    ul.simple-slides li.slide div.caption {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      padding: 0 2em; }
+      ul.simple-slides li.slide div.caption h5 {
+        line-height: 1.75; }
+  ul.simple-slides.loaded li.ss-controls {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 0%;
+    text-align: right;
+    margin: 2em 0 1em 0;
+    font-size: 1.75em;
+    line-height: 1; }
+    ul.simple-slides.loaded li.ss-controls i {
+      cursor: pointer;
+      vertical-align: middle;
+      line-height: 1;
+      color: #222222; }
+      ul.simple-slides.loaded li.ss-controls i:last-of-type {
+        margin-left: .5em;
+        margin-right: .2em; }
+    ul.simple-slides.loaded li.ss-controls span.counter {
+      display: inline-block;
+      height: auto;
+      font-size: 1em;
+      line-height: 1.5;
+      margin-left: .75em;
+      margin-right: 0; }
+    ul.simple-slides.loaded li.ss-controls span.length {
+      display: inline-block;
+      height: auto;
+      font-size: 1em;
+      line-height: 1.5;
+      margin-left: 0;
+      margin-right: 0; }
+  ul.simple-slides.loaded li.slide {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 1; }
+    ul.simple-slides.loaded li.slide.active {
+      position: relative;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      opacity: 1;
+      -webkit-transition: all 1s;
+      -moz-transition: all 1s;
+      -o-transition: all 1s;
+      -ms-transition: all 1s;
+      transition: all 1s; }
+  ul.simple-slides.loaded.first-slide li.ss-controls i.prev-slide {
+    visibility: hidden;
+    cursor: auto; }
+  ul.simple-slides.loaded.last-slide li.ss-controls i.next-slide {
+    visibility: hidden;
+    cursor: auto; }
